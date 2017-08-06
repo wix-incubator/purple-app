@@ -1,0 +1,30 @@
+{
+  "name": "purple-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node_modules/.bin/purple"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wix/purple-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wix/purple-app/issues"
+  },
+  "homepage": "https://github.com/wix/purple-app#readme",
+  "purple": {
+    "modules": [
+      "purple-mod-a",
+      "purple-mod-b"
+    ]
+  },
+  "dependencies": {
+    "purple-engine": "^1.0.2",
+    "purple-mod-a": "^1.0.0",
+    "purple-mod-b": "^1.0.0"
+  }
+}
